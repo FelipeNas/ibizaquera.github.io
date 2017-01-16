@@ -1,0 +1,133 @@
+@font-face {
+    font-family: susanne;
+    src: url(../font/susanne-nouveau.ttf);
+}
+
+@font-face {
+    font-family: germania;
+    src: url(../font/germania-regular.ttf);
+}
+
+body {
+    color: #fbf1c7;
+    background-color: #fbf1c7;  
+    font-family: germania;
+}
+
+.header {
+    background-color: #076678;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.header h1 {
+    font-weight: bold;
+}
+
+.header p {
+   font-size: 1.5em; 
+}
+
+
+#primeira-cabana {
+    background-color: #427b58;
+}
+
+#segunda-cabana {
+    background-color: #d65d0e;
+}
+
+.cabana {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.cabana img {
+    width: 100%;
+}
+
+.extras {
+    background-color: #9d0006;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.extras h5 {
+    margin-bottom: 0px;
+    font-size: 1.3em;
+}
+
+.extras p {
+    font-size: 1.8em;
+}
+
+
+.contato {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #fabd2f;
+    text-align: center;
+}
+
+.contato h5 {
+    font-size: 1.3em;
+    margin-bottom: 0px;
+    color: #504945;
+}
+
+.contato p {
+    font-size: 1.6em;
+    color: #282828;
+}
+
+.contato a {
+    text-decoration: none;
+    color: #282828;
+}
+
+
+.assinatura {
+    background-color: #282828; 
+    padding-top: 1%;
+    text-align:center;
+    color: #a89984;
+}
+
+.assinatura a {
+    text-decoration: none;
+}   
+
+.assinatura-amor {
+    color: #cc241d;
+}
+
+.assinatura-autor {
+    color: #076678;
+}
+
+.background {
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center center;
+   height: 350px;
+} 
+
+#background-piscina {
+   background-image: url("../images/background/piscina.jpg"); 
+
+   @media only screen and (min-width : 320px) and (max-width : 480px) {
+        background: url(../images/piscina-mobile.png) no-repeat center center fixed;
+    }
+}
+
+#background-piscina2 {
+   background-image: url("../images/background/piscina2.jpg"); 
+}
+
+#background-todas-cabanas {
+   background-image: url("../images/background/todas-cabanas.jpg"); 
+}
