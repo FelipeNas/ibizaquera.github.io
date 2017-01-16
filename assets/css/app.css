@@ -109,11 +109,14 @@ body {
 }
 
 .background {
-   background-repeat: no-repeat; 
-   background-attachment: fixed;
-   background-size: cover;
-   background-position: center center;
-   height: 350px;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
 } 
 
 #background-piscina {
