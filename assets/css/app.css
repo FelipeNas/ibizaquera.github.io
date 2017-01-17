@@ -34,7 +34,7 @@ body {
 .header li {
     display: inline;
     list-style: none;
-    margin-left: 10%;
+    margin-left: 7%;
     font-size: 1.7em;
 }
 
@@ -47,11 +47,11 @@ body {
     color: #b8bb26;
 }
 
-#primeira-casa {
+#sobrado-da-lagoa {
     background-color: #427b58;
 }
 
-#segunda-casa {
+#morada-da-lagoa {
     background-color: #d65d0e;
 }
 
