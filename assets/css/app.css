@@ -72,7 +72,12 @@ body {
     padding-bottom: 3%;
 }
 
+.extras h4 {
+    font-size: 2.7em;
+}
+
 .extras h5 {
+    margin-top: 2%;
     margin-bottom: 0px;
     font-size: 1.3em;
 }
