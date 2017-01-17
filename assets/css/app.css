@@ -26,27 +26,38 @@ body {
     color: #b8bb28;
 }
 
-.header p {
-   font-size: 1.5em; 
+.header li {
+    display: inline;
+    list-style: none;
+    margin-left: 10%;
+    font-size: 1.9em;
 }
 
+.header a {
+    text-decoration: none;
+    color: #98971a; 
+}
 
-#primeira-cabana {
+.header a:hover {
+    color: #b8bb26;
+}
+
+#primeira-casa {
     background-color: #427b58;
 }
 
-#segunda-cabana {
+#segunda-casa {
     background-color: #d65d0e;
 }
 
-.cabana {
+.casa {
     padding-top: 3%;
     padding-bottom: 3%;
     text-align: center;
     font-size: 1.5em;
 }
 
-.cabana img {
+.casa img {
     width: 100%;
 }
 
