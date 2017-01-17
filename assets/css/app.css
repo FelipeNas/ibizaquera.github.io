@@ -147,11 +147,7 @@ body {
 } 
 
 #background-one {
-   background-image: url("../images/background/piscina.jpg"); 
-
-   @media only screen and (min-width : 320px) and (max-width : 480px) {
-        background: url(../images/piscina-mobile.png) no-repeat center center fixed;
-    }
+   background-image: url("../images/background/piscina-e-lagoa.png"); 
 }
 
 #background-two {
