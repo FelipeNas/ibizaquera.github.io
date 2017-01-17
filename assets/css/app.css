@@ -1,11 +1,16 @@
 @font-face {
-    font-family: susanne;
-    src: url(../font/susanne-nouveau.ttf);
+    font-family: germania;
+    src: url(../font/germania-regular.ttf);
 }
 
 @font-face {
-    font-family: germania;
-    src: url(../font/germania-regular.ttf);
+    font-family: beach-resort;
+    src: url(../font/beach-resort.ttf);
+}
+
+@font-face {
+    font-family: sunshine;
+    src: url(../font/sunshine.ttf);
 }
 
 body {
@@ -15,22 +20,22 @@ body {
 }
 
 .header {
-    background-color: #076678;
+    background-color: #fdf6e3;
     padding-top: 3%;
     padding-bottom: 1%;
     text-align: center;
 }
 
 .header h1 {
-    font-weight: bold;
-    color: #b8bb28;
+    font-family: beach-resort;
+    color: #2aa198;
 }
 
 .header li {
     display: inline;
     list-style: none;
     margin-left: 10%;
-    font-size: 1.9em;
+    font-size: 1.7em;
 }
 
 .header a {
