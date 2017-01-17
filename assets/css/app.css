@@ -17,11 +17,13 @@ body {
 .header {
     background-color: #076678;
     padding-top: 3%;
+    padding-bottom: 1%;
     text-align: center;
 }
 
 .header h1 {
     font-weight: bold;
+    color: #b8bb28;
 }
 
 .header p {
