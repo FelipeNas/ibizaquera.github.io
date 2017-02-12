@@ -57,11 +57,13 @@ body {
 }
 
 #sobrado-da-lagoa {
-    background-color: #427b58;
+    background-color: #c2ddb9;
+    color: #282828;
 }
 
 #morada-da-lagoa {
-    background-color: #d65d0e;
+    background-color: #f1c7ab;
+    color: #282828;
 }
 
 .casa {
@@ -95,7 +97,8 @@ body {
 }
 
 #extra {
-    background-color: #8f3f71;
+    background-color: #fdf6e3;
+    color: #282828;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -115,12 +118,69 @@ body {
     font-size: 1.8em;
 }
 
-
 .contato {
     padding-top: 5%;
     padding-bottom: 5%;
     background-color: #fabd2f;
     text-align: center;
+}
+
+
+.informacoes {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #ffdadb;
+    color: #282828;
+    text-align: center;
+}
+
+.regra {
+    padding-top: 5%;
+    font-size: 1.6em;
+}
+
+.regra ul {
+    list-style: none;
+}
+
+.check-in {
+    color: #458588; 
+}
+
+.check-in h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.check-in h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2.8em;
+}
+.check-in p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.check-out {
+    color: #cc241d;
+}
+.check-out h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.check-out h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2.8em;
+}
+.check-out p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.multa-check-out p {
+    margin-bottom: 0px;
+    font-size: 1.4em;
 }
 
 .contato h5 {
