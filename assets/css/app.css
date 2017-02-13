@@ -129,18 +129,20 @@ body {
 .informacoes {
     padding-top: 5%;
     padding-bottom: 5%;
-    background-color: #ffdadb;
+    background-color: #fdf6e3;
     color: #282828;
     text-align: center;
 }
 
 .regra {
-    padding-top: 5%;
+    padding-top: 10%;
+    padding-bottom: 5%;
     font-size: 1.6em;
 }
 
 .regra ul {
     list-style: none;
+    color: #bf565a;
 }
 
 .check-in {
