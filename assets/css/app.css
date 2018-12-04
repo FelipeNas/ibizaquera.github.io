@@ -15,7 +15,7 @@
 
 body {
     color: #fbf1c7;
-    background-color: #fbf1c7;  
+    background-color: #fbf1c7;
     font-family: germania;
 }
 
@@ -40,7 +40,7 @@ body {
 
 .header a {
     text-decoration: none;
-    color: #98971a; 
+    color: #98971a;
 }
 
 .header a:hover {
@@ -146,7 +146,7 @@ body {
 }
 
 .check-in {
-    color: #458588; 
+    color: #458588;
 }
 
 .check-in h5 {
@@ -203,7 +203,7 @@ body {
 
 
 .assinatura {
-    background-color: #282828; 
+    background-color: #282828;
     padding-top: 1%;
     text-align:center;
     color: #a89984;
@@ -211,7 +211,7 @@ body {
 
 .assinatura a {
     text-decoration: none;
-}   
+}
 
 .assinatura-amor {
     color: #cc241d;
@@ -222,7 +222,7 @@ body {
 }
 
 .background {
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -230,16 +230,34 @@ body {
     background-size: cover;
     background-position: center center;
     height: 350px;
-} 
+}
 
 #background-one {
-   background-image: url("../images/background/piscina-e-lagoa.png"); 
+   background-image: url("../images/background/piscina-e-lagoa.png");
 }
 
 #background-two {
-   background-image: url("../images/background/piscina2.jpg"); 
+   background-image: url("../images/background/piscina2.jpg");
 }
 
 #background-three {
-   background-image: url("../images/background/lagoa.jpg"); 
+   background-image: url("../images/background/lagoa.jpg");
+}
+
+.whatsapp-buttom {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+@media (max-width: 750px) {
+  .whatsapp-web {
+    display: none;
+  }
+}
+
+@media (min-width: 750px) {
+  .whatsapp-mobile {
+    display:none;
+  }
 }
