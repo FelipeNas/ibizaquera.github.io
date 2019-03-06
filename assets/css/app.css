@@ -115,8 +115,9 @@ body {
     font-size: 1.3em;
 }
 
-.extra-texto {
+.extra-lista {
     font-size: 1.8em;
+    list-style: none;
 }
 
 .contato {
